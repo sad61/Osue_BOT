@@ -1,0 +1,60 @@
+{
+  "name": "Discord_Bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.13.1"
+  },
+  "PREFIX": "*",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "github:discordjs/opus",
+    "@discordjs/voice": "^0.10.0",
+    "@ksoft/api": "^3.1.9",
+    "all": "0.0.0",
+    "axios": "^0.24.0",
+    "babel": "^6.23.0",
+    "canvas": "^2.10.2",
+    "cheerio": "^1.0.0-rc.10",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dicionario.js": "^1.1.1-b",
+    "discord-player": "^5.2.2",
+    "discord.js": "^13.8.0",
+    "dotenv": "^10.0.0",
+    "erela.js": "^2.3.3",
+    "erela.js-spotify": "^1.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.18.1",
+    "extract-sptf-playlist": "^1.1.0",
+    "ffmpeg-static": "^4.4.0",
+    "genius-lyrics": "^4.2.9",
+    "i": "^0.3.7",
+    "lyrics-finder": "^21.7.0",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.4",
+    "node-schedule": "^2.1.0",
+    "npm": "8.15.0",
+    "petitio": "^1.4.0",
+    "puppeteer": "^14.1.1",
+    "request": "^2.88.2",
+    "spdl-core": "^2.0.2",
+    "spotify-playlist": "^0.0.4",
+    "spotify-web-api-node": "^5.0.2",
+    "spotifydl-core": "^0.2.0",
+    "timelabel": "^1.2.0",
+    "yt-search": "^2.10.3",
+    "ytdl-core": "^4.11.0",
+    "ytpl": "^2.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0"
+  }
+}
